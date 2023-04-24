@@ -25,12 +25,12 @@ Create scanner.exe
 Project Organization
 --------------------
 
-    ├── LICENSE
     ├── README.md                   <- General information
     ├── .pre-commit-config.yaml     <- Pre-commit configuration
     ├── requirements.txt            <- Requirements file for reproducing virtual environment
-	├── env                         <- Virtual Enviroment
-    ├── data                        <- Folder with data
+	├── bash                        <- Bash scripts
+    ├── env                         <- Virtual Enviroment
+    ├── exe                         <- Generated executables
 	├── notebooks                   <- Jupyter notebooks
     └── src                         <- Source code of the project
 
