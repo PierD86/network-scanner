@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Env configuration
+env/
+
+# Database
+*.db
+*.rdb
+
+# Pycharm
+.idea
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyproject/
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# exclude data from source control by default
+#/data/raw/
+
+# exclude pickles already tracked in neptune
+pickle/
+
+#exclude truths for functional tests
+src/tests/truths/
+
+# Mypy cache
+.mypy_cache/
+
+# Experiment tracking
+.neptune/
+
+# Miscellaneus
+*.log
+*.pyc
+*.tar
+*.bak
+
+# csv reports
+reports/*.csv
+
+# exe folders
+build/
+dist/
