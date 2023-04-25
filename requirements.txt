@@ -4,3 +4,4 @@ scapy==2.5.0
 jupyterlab==3.6.3
 argparse==1.4.0
 pyinstaller==5.10.1
+tk==0.1.0
